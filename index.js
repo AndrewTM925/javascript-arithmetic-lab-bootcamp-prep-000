@@ -20,4 +20,11 @@ function dec(a) {
 function makeInt(string,a) {
   parseInt(string===a)
   return string
+else {
+  parseInt('0x2328')
+  return 0
 }
+else if ('returns NaN as appropriate') {
+  parseInt('sldkjflksjf')
+  return true
+}}
