@@ -17,7 +17,7 @@ function inc(a) {
 function dec(a) {
   return a - 1
 }
-function makeInt(string , 10) {
-  parseInt(string)
+function makeInt(string) {
+  parseInt(string , 10)
   return string
 }
