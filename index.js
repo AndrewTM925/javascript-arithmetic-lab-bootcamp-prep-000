@@ -20,4 +20,8 @@ function dec(a) {
 function makeInt(string) {
   parseInt(string)
   return string
+} 
+parseInt(string , 10) {
+  return 0
 }
+
