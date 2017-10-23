@@ -18,6 +18,8 @@ function dec(a) {
   return a - 1
 }
 function makeInt(string) {
-  parseInt(string , 10)
-  return string
+  return parseInt(string , 10)
+}
+function preserveDecimal(a) {
+  return parseFloat(a)
 }
